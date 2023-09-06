@@ -1,9 +1,10 @@
 
-#  Task 3  --- Write a Python program that matches a string that has an a followed by one or more b's.
+# Task 5 -- Write a Python program that matches a string that has an a followed by three 'b'.
+
 
 import re
 
-pattern = 'a(b+)'   # regex function
+pattern = 'ab{3}'   # regex function
 
 
 # different sentences 

@@ -14,7 +14,6 @@ sentence_2 = 'Hello sunshine, today it is 27+ degrees outside.'
 
 
 print (re.search(pattern , sentence))
-#IP = 101.188.67.134
 
 if re.match(pattern, sentence):
     print('the sentence only contain alpha numeric characters')

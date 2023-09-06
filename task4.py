@@ -13,7 +13,7 @@ sentence_2 = 'hello habibi'
 sentence_3 = 'hello aaa0b00'
 sentence_4 = 'a0ab'
 sentence_5 = 'flying a0'
-sentence_6= 'flying ab'
+sentence_6= 'flying abb'
 sentence_7 = 'yolo yolo'
 
 
@@ -24,3 +24,5 @@ print(re.search(pattern, sentence_4))
 print(re.search(pattern, sentence_5))
 print(re.search(pattern, sentence_6))
 print(re.search(pattern, sentence_7)) 
+
+# will need to find for those tasks how to put all those string sentences into one list and in a for loop print if it matches or not.
