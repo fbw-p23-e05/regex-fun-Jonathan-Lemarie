@@ -4,12 +4,14 @@
 import re
 
 pattern = '^[a-zA-Z_0-9]+$'
+
 pattern_1 = '^[a-zA-Z_0-9\s]+$'   # found \s to treat spaces
 
 
 sentence = 'Hellosunshinetodayitis27degreesoutside'
 sentence_1 = 'Hello sunshine today it is 27 degrees outside'
-sentence_2 = 'Hello sunshine, today it is 27+ degrees outside.'
+
+#sentence_2 = 'Hello sunshine, today it is 27+ degrees outside.'
 
 
 
@@ -22,13 +24,13 @@ else:
 
 
 
-if re.match(pattern_1, sentence):
+if re.match(pattern, sentence_1):  # pattern_1 include spaces char.
     print('the sentence only contain alpha numeric characters')
 else:
     print('the sentence does not contains only alpha numeric characters but other signs ')
 
 
-if re.match(pattern, sentence_1):
+if re.match(pattern, sentence):
     print('the sentence only contain alpha numeric characters')
 else:
     print('the sentence does not contains only alpha numeric characters but other signs ')
@@ -41,3 +43,5 @@ else:
 
 
 # several examples to get an idea, with the space character and adding signs to the original sentence (sentence_1)
+
+

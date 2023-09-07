@@ -26,3 +26,30 @@ print(re.search(pattern, sentence_6))
 print(re.search(pattern, sentence_7)) 
 
 # will need to find for those tasks how to put all those string sentences into one list and in a for loop print if it matches or not.
+
+if re.match(pattern, sentence_1):
+    print('the sentence matches the pattern')
+else:
+    print('the sentence does not matches the pattern')
+
+if re.match(pattern, sentence_2):
+    print('the sentence matches the pattern.')
+else:
+    print('the sentence does not matches the pattern.')
+
+
+if re.match(pattern, sentence_3):
+    print('the sentence matches the pattern.')
+else:
+    print('the sentence does not matches the pattern.')
+
+
+if re.match(pattern, sentence_4):
+    print('the sentence matches the pattern.')
+else:
+    print('the sentence does not matches the pattern.')
+
+if re.match(pattern, sentence_5):
+    print('the sentence matches the pattern.')
+else:
+    print('the sentence does not matches the pattern.')
